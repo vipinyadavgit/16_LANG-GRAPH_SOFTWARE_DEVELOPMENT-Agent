@@ -1,0 +1,8 @@
+## requirements for software development agent
+
+langgraph           # Build and run the agent workflow graph
+langchain           # Compose LLM-powered application components
+langchain-core      # Core LangChain interfaces and utilities
+langchain-groq      # Connect LangChain to Groq models
+python-dotenv       # Load configuration from a local .env file
+typing-extensions   # Backport newer typing features for older Python versions

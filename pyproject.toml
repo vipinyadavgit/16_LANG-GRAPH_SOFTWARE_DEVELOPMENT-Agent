@@ -7,11 +7,22 @@ authors = [
     { name = "vipinyadavgit", email = "vipinyadav.git@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langgraph",
+    "langchain",
+    "langchain-core",
+    "langchain-groq",
+    "python-dotenv",
+    "typing-extensions",
+]
 
 [project.scripts]
-16-lang-graph-software-development-agent = "16_lang_graph_software_development_agent:main"
+16-lang-graph-software-development-agent = "app.main:run"
 
 [build-system]
 requires = ["uv_build>=0.12.1,<0.13.0"]
 build-backend = "uv_build"
+
+[tool.uv.build-backend]
+module-name = "app"
+module-root = ""

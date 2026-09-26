@@ -7,6 +7,11 @@
 Build an autonomous AI software development team that can **generate, review, validate, fix, and report on Python code** using a LangGraph-controlled workflow.
 
 The system takes a Python development requirement from the user and passes it through specialized AI agents. Based on QA results, the workflow can either complete successfully or loop back to the fixer for another iteration.
+====
+
+## RUn command 
+
+uv run python -m app.main
 
 ---
 
